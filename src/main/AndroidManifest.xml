@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.motivationalspeaker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NickVujicic3"></activity>
+        <activity android:name=".NickVujicic2" />
+        <activity android:name=".LesBrown3" />
+        <activity android:name=".LesBrown2" />
+        <activity android:name=".VidPlaylist2" />
+        <activity android:name=".NickVujicic" />
+        <activity android:name=".LesBrown" />
+        <activity android:name=".VidPlaylist1" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
